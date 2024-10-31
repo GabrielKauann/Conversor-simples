@@ -4,7 +4,6 @@ const taxasDeCambio = {
     BRL: { USD: 0.19, EUR: 0.16 },
     EUR: { USD: 1.18, BRL: 6.18 }
 };
-
 // Função de conversão
 function converter() {
     const valor = parseFloat(document.getElementById("valor").value);
